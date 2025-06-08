@@ -7,7 +7,6 @@
   width: 1359px;
   margin: 0 auto;
   padding: 0 15px;
-
 }
 .logo {
   margin-left: 114px;
@@ -83,11 +82,7 @@
   margin-top: 131px;
   margin-bottom: 80px;
 }
-.info-img {
-  display: block;
-  margin-left: 30px;
-  margin-top: 30px;
-}
+
 .info-p {
   margin: 0px 30px 0px;
   font-family: "Roboto";
@@ -159,7 +154,7 @@
 .villain {
   display: flex;
   margin-top: 100px;
-  margin-bottom: 100px ;
+  margin-bottom: 100px;
 }
 .villain-h3 {
   font-family: "Roboto";
@@ -179,17 +174,16 @@
   margin-bottom: 15px;
   margin-left: 20px;
 }
-.villain-item>p {
+.villain-item > p {
   font-family: "Roboto";
-font-weight: 300;
-font-size: 14px;
-line-height: 23px;
-color: #00194a;
-margin-bottom: 30px;
-margin-left: 20px;
-
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;
+  color: #00194a;
+  margin-bottom: 30px;
+  margin-left: 20px;
 }
-.villain-list{
+.villain-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -200,16 +194,15 @@ margin-left: 20px;
 }
 .villain-item:nth-child(1) {
   grid-area: 1 / 1 / 3 / 3;
-  background-color:#ffffff ;
+  background-color: #ffffff;
   box-shadow: 0px 0px 25px 0px #00000008;
   width: 260px;
   height: 249px;
   border-radius: 10px;
-  
 }
 .villain-item:nth-child(2) {
   grid-area: 2 / 3 / 4 / 5;
-  background-color:#ffffff ;
+  background-color: #ffffff;
   box-shadow: 0px 0px 25px 0px #00000008;
   width: 260px;
   height: 249px;
@@ -217,17 +210,13 @@ margin-left: 20px;
 }
 .villain-item:nth-child(3) {
   grid-area: 3 / 1 / 5 / 3;
-  background-color:#ffffff ;
+  background-color: #ffffff;
   box-shadow: 0px 0px 25px 0px #00000008;
   width: 260px;
   height: 249px;
   border-radius: 10px;
+}
 
-}
-.villain-img{
-margin-top:30px ;
-margin-left: 20px;
-}
 .villain-p {
   font-family: "Roboto";
   font-weight: 300;
@@ -242,9 +231,9 @@ margin-left: 20px;
 }
 
 .black {
-  margin-top:100px ;
+  margin-top: 100px;
 }
-.black-div{
+.black-div {
   background-color: var(--blue-dark--);
   border-radius: 25px;
   margin-left: 114px;
@@ -253,41 +242,39 @@ margin-left: 20px;
 }
 .black-h3 {
   font-family: "Roboto";
-font-weight: 500;
-font-size: 35px;
-line-height: 50px;
-padding-top:50px ;
-margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  padding-top: 50px;
+  margin-bottom: 30px;
   color: var(--white--);
   text-align: center;
 }
 .black-p {
   color: var(--white--);
   font-family: "Roboto";
-font-weight: 300;
-font-size: 18px;
-line-height: 28px;
-letter-spacing: 0px;
-margin: 0px 280px 50px 279px;
-text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin: 0px 280px 50px 279px;
+  text-align: center;
 }
-.black-button{
+.black-button {
   display: block;
-  background-color: #FF0043;
+  background-color: #ff0043;
   border-radius: 30px;
   color: #ffffff;
   padding: 20px 51px;
-  margin: 0px 432px ;
-
+  margin: 0px 432px;
 }
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
-  margin-top:80px ;
+  margin-top: 80px;
   margin-bottom: 80px;
- 
 }
-.footer-list{
+.footer-list {
   display: flex;
   gap: 30px;
   margin-right: 105px;
@@ -298,31 +285,83 @@ text-align: center;
   font-weight: 500;
   size: 18px;
   line-height: 100%;
-  
 }
-.time{
+.time {
   display: block;
   margin-left: 114px;
   font-family: "Roboto";
-font-weight: 500;
-font-size: 18px;
-line-height: 100%;
-color: #00194a;
-
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  color: #00194a;
 }
 .finish-h3 {
   font-family: "Roboto";
-font-weight: 500;
-font-size: 35px;
-line-height: 50px;
-color: #00194A;
-
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #00194a;
 }
 .finish-p {
   font-family: "Roboto";
-font-weight: 300;
-font-size: 18px;
-line-height: 28px;
-color: #00194A;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #00194a;
+}
+.icon-download {
+  width: 21px;
+  height: 20px;
+  fill: #ff0043;
+}
+.icon-android {
+  margin-top: 36px;
+  margin-left: 30px;
+  width: 40px;
+  height: 48px;
+  fill: #ff0043;
+}
+.icon-apple {
+  margin-top: 36px;
+  margin-left: 30px;
+  width: 40px;
+  height: 48px;
+  fill: #ff0043;
+}
+.icon-windos {
+  margin-top: 39px;
+  margin-left: 18px;
+  width: 41px;
+  height: 38px;
+  fill: #ff0043;
+}
+.icon-finder {
+  margin-top: 39px;
+  margin-left: 30px;
+  width: 43px;
+  height: 43px;
+  fill: #ff0043;
+}
 
+.icon-shield {
+  margin-top: 36px;
+  margin-left: 20px;
+  width: 42px;
+  height: 48px;
+  fill: #ff0043;
+}
+
+.icon-share {
+  margin-top: 36px;
+  margin-left: 20px;
+  width: 37px;
+  height: 48px;
+  fill: #ff0043;
+}
+.icon-comment {
+  margin-top: 37px;
+  margin-left: 20px;
+  width: 48px;
+  height: 46px;
+  fill: #ff0043;
 }
